@@ -1,0 +1,51 @@
+body {
+    background-color: #A6F1E0;
+}
+
+.bg{
+    background-color: #3D8D7A;
+}
+
+.list-container{
+    width: 50%;
+    margin: auto;
+}
+
+
+.title{
+    color: #fff;
+    text-align: center;
+}
+
+.todo-input, .btnTodo {
+    border: 2px solid #3D8D7A;
+    border-radius: 5px;
+    padding: 1% 0% 1% 1%;
+
+}
+
+.todo-input{
+    width: 80%;
+    margin-right: 1%;
+}
+
+.btnTodo {
+    background-color: #3D8D7A;
+    color: #fff;
+    width: 19%;
+}
+
+/* Media query for min-width breakpoint */
+@media (max-width: 576px) {
+    
+    .todo-input{
+        width: 100%;
+    }
+    
+    .btnTodo {
+        margin-top: 1%;
+        background-color: #3D8D7A;
+        color: #fff;
+        width: 100%;
+    }
+}
